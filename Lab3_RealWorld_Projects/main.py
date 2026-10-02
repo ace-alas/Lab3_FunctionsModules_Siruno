@@ -1,7 +1,7 @@
 # main.py
 
-from Lab3_RealWorld_Projects.telemetry import process_telemetry
-from Lab3_RealWorld_Projects.diagnostic import (
+from telemetry import process_telemetry
+from diagnostic import (
     detect_abnormal,
     analyze_fault,
     final_diagnostic,
@@ -10,9 +10,9 @@ from Lab3_RealWorld_Projects.diagnostic import (
 
 
 # Values from the first program
-LAST_NAME = "DANTES"
-SEED_NUM = 6
-FAVORITE_ARTIST = "ONE DIRECTION"
+LAST_NAME = "SIRUNO"
+SEED_NUM = 8
+FAVORITE_ARTIST = "BINI"
 
 
 # Process telemetry
